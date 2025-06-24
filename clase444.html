@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Turismo en Huaraz</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">Turismo Huaraz</div>
+    <nav>
+      <ul id="menu" class="menu">
+        <li><a href="#pastoruri">Nevado Pastoruri</a></li>
+        <li><a href="#llanganuco">Laguna Llanganuco</a></li>
+        <li><a href="#chavin">Chavín de Huántar</a></li>
+        <li><a href="#paron">Laguna Parón</a></li>
+        <li><a href="#69">Laguna 69</a></li>
+        <li><a href="#wilcacocha">Laguna Wilcacocha</a></li>
+        <li><a href="#raura">Cordillera Raura</a></li>
+        <li><a href="#hatunmachay">Hatun Machay</a></li>
+      </ul>
+      <button class="toggle" onclick="toggleMenu()">☰</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="pastoruri" class="lugar">
+      <img src="https://i.pinimg.com/736x/b1/73/fc/b173fc81f106cdc1db999d188d8a1237.jpg" alt="Nevado Pastoruri" />
+      <div class="info">
+        <h2>Nevado Pastoruri</h2>
+        <p>Un glaciar ubicado en la Cordillera Blanca. Ideal para conocer la nieve por primera vez.</p>
+        <p><strong>Pasaje:</strong> S/ 40 ida y vuelta desde Huaraz.</p>
+      </div>
+    </section>
+
+    <section id="llanganuco" class="lugar">
+      <img src="https://i.pinimg.com/736x/e8/3d/fd/e83dfd29e410659f258b2ae60f2b1f38.jpg" alt="Laguna Llanganuco" />
+      <div class="info">
+        <h2>Laguna Llanganuco</h2>
+        <p>Espejo de agua turquesa rodeado de montañas nevadas. Acceso en bote.</p>
+        <p><strong>Pasaje:</strong> S/ 30 desde Huaraz.</p>
+      </div>
+    </section>
+
+    <section id="chavin" class="lugar">
+      <img src="https://i.pinimg.com/736x/55/53/cb/5553cbb59ffb888d520c98970e5ca159.jpg" alt="Chavín de Huántar" />
+      <div class="info">
+        <h2>Chavín de Huántar</h2>
+        <p>Centro arqueológico con más de 3,000 años de historia, símbolo de la cultura Chavín.</p>
+        <p><strong>Pasaje:</strong> S/ 50 desde Huaraz.</p>
+      </div>
+    </section>
+
+    <section id="paron" class="lugar">
+      <img src="https://i.pinimg.com/736x/65/a2/cf/65a2cf639b480b71dfc30f3d16f3ab57.jpg" alt="Laguna Parón" />
+      <div class="info">
+        <h2>Laguna Parón</h2>
+        <p>La laguna más grande de la Cordillera Blanca, famosa por sus aguas color celeste intenso.</p>
+        <p><strong>Pasaje:</strong> S/ 40 desde Caraz.</p>
+      </div>
+    </section>
+
+    <section id="69" class="lugar">
+      <img src="https://i.pinimg.com/736x/57/0d/63/570d638cf231c8a470249619b5e8a814.jpg" alt="Laguna 69" />
+      <div class="info">
+        <h2>Laguna 69</h2>
+        <p>Ruta de trekking desafiante con final impresionante. Altura: 4600 m.s.n.m.</p>
+        <p><strong>Pasaje:</strong> S/ 45 desde Huaraz.</p>
+      </div>
+    </section>
+
+    <section id="wilcacocha" class="lugar">
+      <img src="https://i.pinimg.com/736x/4a/f6/8c/4af68c676462f7f7958a8284708244c9.jpg" alt="Laguna Wilcacocha" />
+      <div class="info">
+        <h2>Laguna Wilcacocha</h2>
+        <p>Laguna ubicada en un mirador natural con vista panorámica de la Cordillera Blanca.</p>
+        <p><strong>Pasaje:</strong> S/ 5 desde Huaraz (combi).</p>
+      </div>
+    </section>
+
+    <section id="raura" class="lugar">
+      <img src="https://i.pinimg.com/736x/94/1d/c6/941dc6236aa7c190fd8ac03bbbcfc18b.jpg" alt="Cordillera Raura" />
+      <div class="info">
+        <h2>Cordillera Raura</h2>
+        <p>Menos conocida, con paisajes vírgenes y lagunas altoandinas, ideal para exploradores.</p>
+        <p><strong>Pasaje:</strong> S/ 60 desde Huaraz.</p>
+      </div>
+    </section>
+
+    <section id="hatunmachay" class="lugar">
+      <img src="https://i.pinimg.com/736x/cc/35/b1/cc35b1ea0e78a8738e6b861dffe999bc.jpg" alt="Hatun Machay" />
+      <div class="info">
+        <h2>Hatun Machay</h2>
+        <p>Bosque de piedras ideal para escalada y camping. Considerado santuario de arte rupestre.</p>
+        <p><strong>Pasaje:</strong> S/ 30 desde Huaraz.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Turismo Huaraz. EDITH ESPINOZA BALTAZAR.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("menu").classList.toggle("active");
+    }
+  </script>
+
+</body>
+</html>
